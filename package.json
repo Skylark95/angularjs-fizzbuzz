@@ -1,0 +1,16 @@
+{
+  "name": "angularjs_fizzbuzz",
+  "version": "0.0.0",
+  "description": "angularjs_fizzbuzz",
+  "author": "Derek <derek@skylark95.com>",
+  "private": true,
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "http-server": "^0.7.2"
+  }
+}

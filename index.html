@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>AngularJS User's Group - Oct 2014 - Fizzbuzz Code Kata</title>
+    <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-underscore-module/angular-underscore-module.js"></script>
+    <script type="text/javascript" src="app/fbapp.js"></script>
+</head>
+
+<body ng-app="fbApp">
+    <div ng-controller="fbController">
+<p>Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.</p>
+        &bull;
+        <span ng-repeat="num in numbers">
+            {{num | fizzbuzz}} &bull;
+        </span>
+    </div>
+  </body>
+</html>

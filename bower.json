@@ -1,0 +1,23 @@
+{
+  "name": "angularjs_fizzbuzz",
+  "version": "0.0.0",
+  "authors": [
+    "Derek <derek@skylark95.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-underscore-module": "~1.0.1",
+    "underscore": "~1.7.0"
+  },
+  "resolutions": {
+    "angular": "1.2.26"
+  }
+}
